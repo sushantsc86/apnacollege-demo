@@ -3,7 +3,7 @@ name: CI/CD for react App
 on:
   push:
     branches: [main]
-workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: write
